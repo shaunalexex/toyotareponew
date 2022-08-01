@@ -11,7 +11,14 @@ public class DemoController {
 		return("hi");
 	}
 	
-	System.out.println("Hi");
+
+	//System.out.println("Hi");
+	
+	
+	@RequestMapping(value="/hi")
+	public String method2() {
+		return("Hi hi ");
+	}
 	
 
 }
