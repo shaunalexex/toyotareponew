@@ -10,5 +10,8 @@ public class DemoController {
 	public String method1() {
 		return("hi");
 	}
+	
+	System.out.println("Hi");
+	
 
 }
